@@ -9,7 +9,7 @@
 .container {
   padding: 40px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: black;
 }
 
@@ -35,34 +35,39 @@
 
 .nav-img img {
   height: 100px;
+  width: auto;
 }
 
-.main{
+.main {
   display: flex;
   justify-content: space-around;
+  margin-top: 50px;
 }
 
-.main-section{
+.main-section {
   width: 30%;
 
   display: flex;
   flex-direction: column;
 }
 
-.box{
+.box {
   border: solid 1px;
+  margin-bottom: 20px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.box-img img{
+.box-img img {
   padding: 20px;
   height: 250px;
+  width: auto;
+  /* object-fit: cover; */
 }
 
-.info{
+.info {
   width: 100%;
   padding: 10px 20px;
 
@@ -70,7 +75,7 @@
   flex-direction: column;
 }
 
-.main-text{
+.main-text {
   font-size: 100px;
 
   display: flex;
@@ -78,7 +83,7 @@
   align-items: center;
 }
 
-.footer{
+.footer {
   height: 70px;
   padding: 0 110px;
 
